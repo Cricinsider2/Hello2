@@ -127,7 +127,7 @@
         document.body.innerHTML = `<p style="color:white;text-align:center">Your browser does not support HLS playback.</p>`;
       }
 
-      // Enable Picture-in-Picture logs
+      // Enable Picture-in-Picture via double-click or PiP button
       video.addEventListener('enterpictureinpicture', () => console.log('Entered PiP'));
       video.addEventListener('leavepictureinpicture', () => console.log('Exited PiP'));
     });
